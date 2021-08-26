@@ -1,0 +1,37 @@
+:root {
+  --cream: #fbe7c6;
+  --brown: #b35504;
+  --green: #b4f8c8;
+  --blue: #a0e7e5;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.cream {
+  background: var(--cream);
+}
+
+.blue {
+  background: var(--blue);
+}
+
+.green {
+  background: var(--green);
+}
+
+.brown {
+  background: var(--brown);
+}
+.brown-text {
+  color: var(--brown);
+}
+.v-application {
+  font-family: 'Montserrat', sans-serif !important;
+}
+
+section {
+  min-height: 100vh;
+}
