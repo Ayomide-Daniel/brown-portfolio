@@ -53,6 +53,7 @@
           </div>
           <div class="content-meta">
             <h3>FUOYE360</h3>
+            <br />
             <p>
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis
               quo optio necessitatibus dolorem molestias harum hic id
@@ -67,6 +68,7 @@
           </div>
           <div class="content-meta">
             <h3>CheksNG</h3>
+            <br />
             <p>
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis
               quo optio necessitatibus dolorem molestias harum hic id
@@ -81,6 +83,7 @@
           </div>
           <div class="content-meta">
             <h3>SETSUB</h3>
+            <br />
             <p>
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis
               quo optio necessitatibus dolorem molestias harum hic id
@@ -95,6 +98,7 @@
           </div>
           <div class="content-meta">
             <h3>DSC, FUOYE</h3>
+            <br />
             <p>
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis
               quo optio necessitatibus dolorem molestias harum hic id
@@ -109,6 +113,7 @@
           </div>
           <div class="content-meta">
             <h3>ThinkTech</h3>
+            <br />
             <p>
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis
               quo optio necessitatibus dolorem molestias harum hic id
