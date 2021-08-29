@@ -48,12 +48,8 @@
       </div>
       <div class="section content-div">
         <div class="content">
-          <div class="img-div">
-            <img
-              :src="require('~/assets/images/fuoye360-logo.png')"
-              alt=""
-              style="object-fit: cover"
-            />
+          <div class="img-div" style="background: #000">
+            <img :src="require('~/assets/images/fuoye360-logo-1.png')" alt="" />
           </div>
           <div class="content-meta">
             <h3>FUOYE360</h3>
@@ -188,12 +184,12 @@ export default {
 .jobs .content .img-div {
   display: flex;
   padding: 1rem;
+  border-radius: 1rem 1rem 0 0;
 }
 .jobs .content img {
   object-fit: contain;
   width: 100%;
   height: 120px;
-  border-radius: 1rem 1rem 0 0;
 }
 .jobs .content-meta {
   background: var(--border);
