@@ -41,7 +41,13 @@
         </div>
       </div>
     </section>
-    <section class="section-3 container"></section>
+    <section class="section-3 container">
+      <div class="meta-div">
+        <h1 class="bi bi-briefcase icon"></h1>
+        <h1 id="motivation">My works</h1>
+      </div>
+      <div class="section"></div>
+    </section>
   </div>
 </template>
 
@@ -60,7 +66,7 @@ export default {
 }
 .section-1 .meta-div {
   display: block;
-  margin-top: -15rem;
+  margin-top: 10rem;
 }
 .section-1 .img-div {
   position: absolute;

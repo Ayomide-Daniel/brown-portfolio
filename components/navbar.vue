@@ -1,22 +1,10 @@
 <template>
   <div class="nav">
     <nav class="container">
-      <a href="#home"
-        ><h2 class="bi bi-house"></h2>
-        <span>Home</span></a
-      >
-      <a href="#motivation"
-        ><h2 class="bi bi-lightbulb"></h2>
-        <span>Motivation </span></a
-      >
-      <a href=""
-        ><h2 class="bi bi-briefcase"></h2>
-        <span>Jobs </span>
-      </a>
-      <a href=""
-        ><h2 class="bi bi-telephone"></h2>
-        <span>Contact </span></a
-      >
+      <a href="#home"><h2 class="bi bi-house"></h2></a>
+      <a href="#motivation"><h2 class="bi bi-lightbulb"></h2></a>
+      <a href=""><h2 class="bi bi-briefcase"></h2> </a>
+      <a href=""><h2 class="bi bi-telephone"></h2></a>
     </nav>
   </div>
 </template>
@@ -34,6 +22,7 @@ export default {
 }
 nav {
   display: flex;
+  padding: 1rem;
   justify-content: space-between;
 }
 nav a {
