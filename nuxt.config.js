@@ -9,22 +9,23 @@ export default {
     titleTemplate: '%s - portfolio',
     title: 'portfolio',
     htmlAttrs: {
-      lang: 'en'
+      lang: 'en',
     },
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: '' },
-      { name: 'format-detection', content: 'telephone=no' }
+      { name: 'format-detection', content: 'telephone=no' },
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },      {
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      {
         rel: 'preconnect',
         href: 'https://fonts.gstatic.com',
       },
       {
         rel: 'stylesheet',
-        href: 'https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;500;600;700&display=swap',
+        href: 'https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;500;600;700;800;900&display=swap',
       },
       {
         rel: 'stylesheet',
@@ -42,9 +43,8 @@ export default {
         rel: 'stylesheet',
         href: 'https://cdn.jsdelivr.net/npm/vuetify@2.x/dist/vuetify.min.css',
       },
-
     ],
-        script: [
+    script: [
       {
         src: 'https://unpkg.com/aos@2.3.1/dist/aos.js',
       },
@@ -52,14 +52,12 @@ export default {
         src: 'https://cdn.jsdelivr.net/npm/typed.js@2.0.12',
       },
     ],
-
   },
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: ['@/assets/css/app.css'],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-  plugins: [
-  ],
+  plugins: [],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
@@ -73,8 +71,7 @@ export default {
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
-  modules: [
-  ],
+  modules: [],
 
   // Vuetify module configuration: https://go.nuxtjs.dev/config-vuetify
   vuetify: {
@@ -89,10 +86,10 @@ export default {
           info: colors.teal.lighten1,
           warning: colors.amber.base,
           error: colors.deepOrange.accent4,
-          success: colors.green.accent3
-        }
-      }
-    }
+          success: colors.green.accent3,
+        },
+      },
+    },
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
