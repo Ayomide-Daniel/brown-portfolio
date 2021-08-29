@@ -1,8 +1,8 @@
 <template>
   <div>
-    <section class="cream-color d-flex home container section">
+    <section id="home" class="cream-color d-flex home container section">
       <div class="meta-div">
-        <h1 id="home" class="lg-text">
+        <h1 class="lg-text">
           Holla <span class="wave">👋</span>, <br />
           I’m
           <span class="brown-text text-decoration-underline"
@@ -21,10 +21,10 @@
         />
       </div>
     </section>
-    <section class="green-color motivation container">
+    <section id="motivation" class="green-color motivation container">
       <div class="meta-div">
         <h1 class="bi bi-lightbulb icon"></h1>
-        <h1 id="motivation">Words that inspire me</h1>
+        <h1>Words that inspire me</h1>
       </div>
       <div class="section">
         <div>
@@ -41,10 +41,10 @@
         </div>
       </div>
     </section>
-    <section class="jobs container">
+    <section id="jobs" class="jobs container">
       <div class="meta-div">
         <h1 class="bi bi-briefcase icon"></h1>
-        <h1 id="motivation">My works</h1>
+        <h1>My works</h1>
       </div>
       <div class="section content-div">
         <div class="content">

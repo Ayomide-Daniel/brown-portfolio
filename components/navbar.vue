@@ -3,8 +3,8 @@
     <nav class="container">
       <a href="#home"><h2 class="bi bi-house"></h2></a>
       <a href="#motivation"><h2 class="bi bi-lightbulb"></h2></a>
-      <a href=""><h2 class="bi bi-briefcase"></h2> </a>
-      <a href=""><h2 class="bi bi-telephone"></h2></a>
+      <a href="#jobs"><h2 class="bi bi-briefcase"></h2> </a>
+      <a href="#contact"><h2 class="bi bi-telephone"></h2></a>
     </nav>
   </div>
 </template>
