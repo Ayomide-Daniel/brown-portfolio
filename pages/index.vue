@@ -46,16 +46,79 @@
         <h1 class="bi bi-briefcase icon"></h1>
         <h1 id="motivation">My works</h1>
       </div>
-      <div class="section">
+      <div class="section content-div">
         <div class="content">
           <div class="img-div">
-            <img :src="require('~/assets/images/fuoye360-logo.png')" alt="" />
+            <img
+              :src="require('~/assets/images/fuoye360-logo.png')"
+              alt=""
+              style="object-fit: cover"
+            />
           </div>
           <div class="content-meta">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis quo
-            optio necessitatibus dolorem molestias harum hic id perspiciatis
-            autem. Quidem, ad. Beatae delectus eos veritatis ipsa molestiae
-            dolorum id tenetur?
+            <h3>FUOYE360</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis
+              quo optio necessitatibus dolorem molestias harum hic id
+              perspiciatis autem. Quidem, ad. Beatae delectus eos veritatis ipsa
+              molestiae dolorum id tenetur?
+            </p>
+          </div>
+        </div>
+        <div class="content">
+          <div class="img-div">
+            <img :src="require('~/assets/images/cheks-logo.png')" alt="" />
+          </div>
+          <div class="content-meta">
+            <h3>CheksNG</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis
+              quo optio necessitatibus dolorem molestias harum hic id
+              perspiciatis autem. Quidem, ad. Beatae delectus eos veritatis ipsa
+              molestiae dolorum id tenetur?
+            </p>
+          </div>
+        </div>
+        <div class="content">
+          <div class="img-div">
+            <img :src="require('~/assets/images/setsub-logo.png')" alt="" />
+          </div>
+          <div class="content-meta">
+            <h3>SETSUB</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis
+              quo optio necessitatibus dolorem molestias harum hic id
+              perspiciatis autem. Quidem, ad. Beatae delectus eos veritatis ipsa
+              molestiae dolorum id tenetur?
+            </p>
+          </div>
+        </div>
+        <div class="content">
+          <div class="img-div">
+            <img :src="require('~/assets/images/DSCFUOYE-logo.png')" alt="" />
+          </div>
+          <div class="content-meta">
+            <h3>DSC, FUOYE</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis
+              quo optio necessitatibus dolorem molestias harum hic id
+              perspiciatis autem. Quidem, ad. Beatae delectus eos veritatis ipsa
+              molestiae dolorum id tenetur?
+            </p>
+          </div>
+        </div>
+        <div class="content">
+          <div class="img-div">
+            <img :src="require('~/assets/images/thinktech-logo.png')" alt="" />
+          </div>
+          <div class="content-meta">
+            <h3>ThinkTech</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis
+              quo optio necessitatibus dolorem molestias harum hic id
+              perspiciatis autem. Quidem, ad. Beatae delectus eos veritatis ipsa
+              molestiae dolorum id tenetur?
+            </p>
           </div>
         </div>
       </div>
@@ -112,16 +175,28 @@ export default {
 .motivation h2 {
   font-size: 1.3rem;
 }
+.jobs .content-div {
+  display: grid;
+  grid-gap: 2rem;
+}
+.jobs .content {
+  border: 1px solid var(--border);
+  box-shadow: 0 1px 3px rgb(0 0 0 / 4%);
+  box-sizing: border-box;
+  border-radius: 1rem;
+}
 .jobs .content .img-div {
   display: flex;
+  padding: 1rem;
 }
 .jobs .content img {
-  object-fit: cover;
+  object-fit: contain;
   width: 100%;
-  height: 100px;
+  height: 120px;
   border-radius: 1rem 1rem 0 0;
 }
 .jobs .content-meta {
+  background: var(--border);
   padding: 1rem;
   border-radius: 0 0 1rem 1rem;
 }
