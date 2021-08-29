@@ -1,6 +1,6 @@
 <template>
   <div>
-    <section class="cream-color d-flex section-1 container section">
+    <section class="cream-color d-flex home container section">
       <div class="meta-div">
         <h1 id="home" class="lg-text">
           Holla <span class="wave">👋</span>, <br />
@@ -21,7 +21,7 @@
         />
       </div>
     </section>
-    <section class="green-color section-2 container">
+    <section class="green-color motivation container">
       <div class="meta-div">
         <h1 class="bi bi-lightbulb icon"></h1>
         <h1 id="motivation">Words that inspire me</h1>
@@ -41,12 +41,24 @@
         </div>
       </div>
     </section>
-    <section class="section-3 container">
+    <section class="jobs container">
       <div class="meta-div">
         <h1 class="bi bi-briefcase icon"></h1>
         <h1 id="motivation">My works</h1>
       </div>
-      <div class="section"></div>
+      <div class="section">
+        <div class="content">
+          <div class="img-div">
+            <img :src="require('~/assets/images/fuoye360-logo.png')" alt="" />
+          </div>
+          <div class="content-meta">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis quo
+            optio necessitatibus dolorem molestias harum hic id perspiciatis
+            autem. Quidem, ad. Beatae delectus eos veritatis ipsa molestiae
+            dolorum id tenetur?
+          </div>
+        </div>
+      </div>
     </section>
   </div>
 </template>
@@ -58,17 +70,17 @@ export default {
 </script>
 
 <style scoped>
-.section-1 {
+.home {
   display: block;
 }
-.section-1 h1 {
+.home h1 {
   font-weight: 800;
 }
-.section-1 .meta-div {
+.home .meta-div {
   display: block;
   margin-top: 10rem;
 }
-.section-1 .img-div {
+.home .img-div {
   position: absolute;
   display: flex;
   width: 100vw;
@@ -80,7 +92,7 @@ export default {
   -ms-transform: scaleX(-1);
   -o-transform: scaleX(-1);
 }
-.section-1 .wave {
+.home .wave {
   animation: waving ease-in-out infinite alternate 2s;
 }
 @keyframes waving {
@@ -93,11 +105,24 @@ export default {
     /* transform: rotate(-15deg); */
   }
 }
-.section-1 img {
+.home img {
   width: 100%;
   height: auto;
 }
-.section-2 h2 {
+.motivation h2 {
   font-size: 1.3rem;
+}
+.jobs .content .img-div {
+  display: flex;
+}
+.jobs .content img {
+  object-fit: cover;
+  width: 100%;
+  height: 100px;
+  border-radius: 1rem 1rem 0 0;
+}
+.jobs .content-meta {
+  padding: 1rem;
+  border-radius: 0 0 1rem 1rem;
 }
 </style>
