@@ -3,7 +3,7 @@
     <section class="cream-color d-flex section-1 container section">
       <div class="meta-div">
         <h1 class="lg-text">
-          Holla 👋, <br />
+          Holla <span class="wave">👋</span>, <br />
           I’m
           <span class="brown-text text-decoration-underline"
             >Brown!
@@ -40,7 +40,7 @@
         </div>
       </div>
     </section>
-    <section class="section-3 container d-flex"></section>
+    <section class="section-3 container"></section>
   </div>
 </template>
 
@@ -73,7 +73,19 @@ export default {
   -ms-transform: scaleX(-1);
   -o-transform: scaleX(-1);
 }
-
+.section-1 .wave {
+  animation: waving ease-in-out infinite alternate 2s;
+}
+@keyframes waving {
+  from {
+    transform: scale(0.5);
+    /* transform: rotate(15deg); */
+  }
+  to {
+    transform: scale(2);
+    /* transform: rotate(-15deg); */
+  }
+}
 .section-1 img {
   width: 100%;
   height: auto;
