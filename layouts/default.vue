@@ -29,7 +29,7 @@ export default {
   left: 0;
   margin: 0 auto;
   z-index: 10;
-  backdrop-filter: blur(4px);
-  background: rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(5px);
+  background: rgba(125, 125, 125, 0.5);
 }
 </style>

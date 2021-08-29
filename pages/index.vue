@@ -2,7 +2,7 @@
   <div>
     <section class="cream-color d-flex section-1 container section">
       <div class="meta-div">
-        <h1 class="lg-text">
+        <h1 id="home" class="lg-text">
           Holla <span class="wave">👋</span>, <br />
           I’m
           <span class="brown-text text-decoration-underline"
@@ -10,8 +10,9 @@
             <!-- <span class=" underline-div"></span> -->
           </span>
         </h1>
-        <p><small>“As you dey here so, I don sight you”</small></p>
+        <p>“As you dey here so, I don sight you”</p>
       </div>
+
       <div class="img-div">
         <img
           :src="require('~/assets/images/me-on-blue.png')"
@@ -23,7 +24,7 @@
     <section class="green-color section-2 container">
       <div class="meta-div">
         <h1 class="bi bi-lightbulb icon"></h1>
-        <h1>Words that inspire me</h1>
+        <h1 id="motivation">Words that inspire me</h1>
       </div>
       <div class="section">
         <div>
@@ -33,7 +34,7 @@
             Provide solutions rather than discuss problems. <br />
             And while you do these things, remember that your Greatest Strength
             lies in doing things according to your unique abilities."
-            <br />
+            <br /><br />
             These are the words I live and breathe by and I use Web Development
             as one of my tools to continually affirm these beliefs.
           </h2>
