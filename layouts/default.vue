@@ -1,18 +1,18 @@
 <template>
   <v-app>
     <v-main>
-      <Nuxt/>
+      <Nuxt />
     </v-main>
-    <v-footer>
+    <!-- <v-footer>
       <span>&copy; {{ new Date().getFullYear() }}</span>
-    </v-footer>
+    </v-footer> -->
   </v-app>
 </template>
 
 <script>
 export default {
   data() {
-    return {};
+    return {}
   },
-};
+}
 </script>

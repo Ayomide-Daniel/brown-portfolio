@@ -19,9 +19,9 @@
     <section class="green-color d-flex section-2 container">
       <div>
         <h1>
-          "Think differently. <br />
-          Innovate differently. <br />
-          Provide solutions rather than discuss problems. <br />
+          <b>"Think differently.</b><br />
+          <b>Innovate differently.</b> <br />
+          <b>Provide solutions</b> rather than discuss problems. <br />
           And while you do these things, remember that your Greatest Strength
           lies in doing things according to your unique abilities." <br />
           These are the words I live and breathe by and I use Web Development as

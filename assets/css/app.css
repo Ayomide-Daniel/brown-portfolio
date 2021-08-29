@@ -12,6 +12,7 @@
 html,
 body {
   width: 100%;
+  max-width: 100%;
 }
 .cream-color {
   background: var(--cream);
@@ -72,4 +73,8 @@ section {
   -moz-transform: scaleX(-1);
   -ms-transform: scaleX(-1);
   -o-transform: scaleX(-1);
+}
+
+.section-2 h1 {
+  font-weight: 300;
 }
