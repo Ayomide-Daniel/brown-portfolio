@@ -1,10 +1,10 @@
 <template>
   <div class="nav">
     <nav class="container">
-      <a href="#home"><h2 class="bi bi-house"></h2></a>
-      <a href="#motivation"><h2 class="bi bi-lightbulb"></h2></a>
-      <a href="#jobs"><h2 class="bi bi-briefcase"></h2> </a>
-      <a href="#contact"><h2 class="bi bi-telephone"></h2></a>
+      <a href="#home"><h3 class="bi bi-house"></h3></a>
+      <a href="#motivation"><h3 class="bi bi-lightbulb"></h3></a>
+      <a href="#jobs"><h3 class="bi bi-briefcase"></h3> </a>
+      <a href="#contact"><h3 class="bi bi-telephone"></h3></a>
     </nav>
   </div>
 </template>

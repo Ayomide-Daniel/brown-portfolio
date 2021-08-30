@@ -45,6 +45,7 @@
       <div class="meta-div">
         <h1 class="bi bi-briefcase icon"></h1>
         <h1>My works</h1>
+        <span class="underline-div"></span>
       </div>
       <div class="section content-div">
         <div class="content">
@@ -123,6 +124,34 @@
           </div>
         </div>
       </div>
+      <div class="btn-div">
+        <button class="btn default-btn">
+          <h1 class="bi bi-cloud-arrow-down icon"></h1>
+          Download Resume
+        </button>
+      </div>
+    </section>
+    <section id="contact" class="container cream-color section">
+      <div class="meta-div">
+        <h1 class="bi bi-telephone icon"></h1>
+        <h1>Contact me</h1>
+      </div>
+      <div class="form-div brown-color">
+        <form action="">
+          <div class="input-d">
+            <label for=""><i class="bi bi-person icon"></i> Name</label>
+            <input type="text" />
+          </div>
+          <div class="input-d">
+            <label for=""><i class="bi bi-envelope icon"></i> Email</label>
+            <input type="email" />
+          </div>
+          <div class="input-d">
+            <label for=""><i class="bi bi-comment icon"></i> Pitch</label>
+            <textarea id="" name="" cols="30" rows="10"></textarea>
+          </div>
+        </form>
+      </div>
     </section>
   </div>
 </template>
@@ -200,5 +229,10 @@ export default {
   background: var(--border);
   padding: 1rem;
   border-radius: 0 0 1rem 1rem;
+}
+.form-div {
+  border-radius: 1rem;
+  padding: 1rem;
+  margin: 0 1rem;
 }
 </style>
